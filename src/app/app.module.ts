@@ -11,7 +11,7 @@ import { HeroService } from './hero.service';
 @NgModule({
   imports: [
     BrowserModule,
-    FormsModule // <-- import the FormsModule before binding with [(ngModel)]
+    FormsModule 
   ],
   declarations: [
     AppComponent,
